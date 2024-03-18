@@ -17,9 +17,6 @@ END IF;
 END;
 /
 
-SELECT COUNT(*) FROM casahija
-WHERE casapadre = 1 GROUP BY casapadre;
-
 -- Caso de prueba 1 (debe permitir el ingreso)
 INSERT INTO casahija VALUES(6, 10, 1);
 
